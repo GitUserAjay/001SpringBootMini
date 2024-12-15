@@ -34,6 +34,8 @@ public class Client {
 	vo.setBasicSalary(bsalary);
 	vo.setDesg(desg);
 	
+	System.out.println(" statement check for Git");
+	
 	// business method
 	try {
 		String result=controller.processEmployee(vo);
